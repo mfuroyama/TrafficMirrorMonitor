@@ -13,7 +13,7 @@ Monitor, queue and store network traffic from an AWS VPC Traffic Mirrored source
 
 ## Background
 
-The **Traffic Mirror Monitor** is a NodeJS application that leverages the native AWS [VPC Traffic Mirroring]() to
+The **Traffic Mirror Monitor** is a NodeJS application that leverages the native AWS [VPC Traffic Mirroring](https://aws.amazon.com/blogs/aws/new-vpc-traffic-mirroring/) to
 capture RPC traffic between a targeted VISTA and the various clients that communicate with that VISTA via its RPC
 Broker port. Thanks to the VPC Traffic Mirroring mechanism, The Traffic Mirror Monitor is fully passive and
 non-intrusive, which implies that the operational risk introduced by having the **Traffic Mirror Monitor** running is
